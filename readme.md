@@ -1,8 +1,8 @@
-## Project Management Web App with Node.js, GraphQL, and React
+## Project Management Web App with Node.js, GraphQL, MongoDB, and React
 This project is a web application for managing projects and clients. It utilizes a modern tech stack:
 
 #### Backend: 
-Node.js server and GraphQL for a flexible and efficient API.
+Node.js server with MongoDB as database and GraphQL for a flexible and efficient API.
 #### Frontend: 
 ReactJS for a user-friendly and dynamic interface.
 #### Data: 
@@ -22,6 +22,21 @@ Apollo Client for seamless interaction with the GraphQL API.
 - Optimized data handling: InMemoryCache in the frontend reduces unnecessary database calls during delete operations.
 - This project showcases the power of modern web development tools for building interactive and data-driven applications.
 
+#### Home page:
+
+![Alt text](image.png)
+
+#### Add a Client
+
+![Alt text](image-1.png)
+
+#### Add a New Project
+
+![Alt text](image-2.png)
+
+#### Project Detail Page
+
+![Alt text](image-3.png)
 
 #### Commands used for front-end
 
@@ -29,6 +44,7 @@ Apollo Client for seamless interaction with the GraphQL API.
 - npm i -D nodemon dotenv    
 - npm run dev
 - Server runs on port 8000
+- GraphQL UI can be accessed at localhost:8080/graphql
 
 #### Commands used for backend
 
