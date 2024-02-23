@@ -52,3 +52,5 @@ Apollo Client for seamless interaction with the GraphQL API.
 - npm i @apollo/client graphql react-router-dom react-icons
 - npm start
 - Client runs on port 3000
+
+Tutorial Link: https://youtu.be/BcLNfwF04Kw?feature=shared
